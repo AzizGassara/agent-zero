@@ -1,3 +1,12 @@
+---
+title: Agent Zero
+emoji: 🚀
+colorFrom: green
+colorTo: blue
+sdk: docker
+app_port: 7860
+pinned: false
+---
 <div align="center">
 
 # `Agent Zero`
@@ -252,7 +261,6 @@ docker run -p 50001:80 agent0ai/agent-zero
 ### v0.9.1 - LiteLLM, UI improvements
 [Release video](https://youtu.be/crwr0M4Spcg)
 - Langchain replaced with LiteLLM
-    - Support for reasoning models streaming
     - Support for more providers
     - Openrouter set as default instead of OpenAI
 - UI improvements
